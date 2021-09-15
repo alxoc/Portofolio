@@ -1,5 +1,16 @@
 * {
     font-family:'Courier New', Courier, monospace;
+    color: var(--secondary-color)
+}
+:root{
+    --secondary-color: #0bb5f4;
+    --primary-color: #FCF7F8;
+    --text-color: #fff;
+    
+}
+
+body {
+    background-color: var(--primary-color);
 }
 
 #topnavwrapper {
@@ -9,44 +20,52 @@
     width: 101,1%;
     height: 47px;
     margin: -8px;
-    background-color: #d3d3d3;
+    background-color: var(--secondary-color);
 }
 
 .topnav {
     overflow: hidden;
-    background-color: #d3d3d3;
+    background-color: var(--secondary-color);
 }
 
 .topnav a {
     float: left;
     display: block;
-    color: #000000;
+    color: var(--text-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .topnav a:hover {
-    background-color: #6b6b6b;
-    color: black;
+    background-color: #0e87b3;
+    color: var(--text-color);
 }
 
 .header {
     width: 101.1%;
     height: 250px;
-    background-color: #d3d3d3;
+    background-color: var(--secondary-color);
     background-size: cover;
     position: relative;
     margin: -8px;
 }
 
+.header p {
+    color: var(--text-color);
+}
+
 .header-projects {
     width: 101.1%;
     height: 150px;
-    background-color: #d3d3d3;
+    background-color: var(--secondary-color);
     background-size: cover;
     position: relative;
     margin: -8px;
+}
+
+.header-projects p {
+    color: var(--text-color);
 }
 
 .header-txt {
@@ -56,13 +75,13 @@
 }
 
 .header-txt h1 {
-    color: #000000;
+    color: var(--text-color);
     font-size: 40px;
     font-weight: bold;
 }
 
 .header-txt h2 {
-    color: #707070;
+    color: var(--text-color);
     
 }
 
@@ -75,7 +94,7 @@
 
 .bodylink {
     text-decoration: none;
-    color: darkblue;
+    color: var(--secondary-color);
 }
 
 .bodylink:hover {
@@ -115,18 +134,33 @@
 }
 
 .titleline {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+.titleline2 {
+    border-bottom: 3px solid var(--text-color);
 }
 
 .footer {
     width: 101.1%;
     height: 250px;
-    background-color: #d3d3d3;
+    background-color: var(--secondary-color);
     background-size: cover;
     position: relative;
     margin: -8px;
 }
 
+.footer p {
+    color: var(--text-color);
+}
+
+.footer h2 {
+    color: var(--text-color);
+}
+
+.footer b {
+    color: var(--text-color);
+}
 .contact {
     position: absolute;
     top: 5px;
@@ -137,11 +171,11 @@
 
 .footerlink {
     text-decoration: none;
-    color: darkblue;
+    color: var(--text-color);
 }
 
 .footerlink:hover {
-    color: white;
+    color: darkblue;
 }
 
 /* projects page */
