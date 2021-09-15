@@ -3,7 +3,7 @@
     color: var(--secondary-color)
 }
 :root{
-    --secondary-color: #0bb5f4;
+    --secondary-color: #7731fa;
     --primary-color: #FCF7F8;
     --text-color: #fff;
     
@@ -38,8 +38,8 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #0e87b3;
-    color: var(--text-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .header {
