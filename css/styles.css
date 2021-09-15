@@ -2,9 +2,47 @@
     font-family:'Courier New', Courier, monospace;
 }
 
-.header-img {
+#topnavwrapper {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    width: 101,1%;
+    height: 47px;
+    margin: -8px;
+    background-color: #d3d3d3;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #d3d3d3;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #6b6b6b;
+    color: black;
+}
+
+.header {
     width: 101.1%;
     height: 250px;
+    background-color: #d3d3d3;
+    background-size: cover;
+    position: relative;
+    margin: -8px;
+}
+
+.header-projects {
+    width: 101.1%;
+    height: 150px;
     background-color: #d3d3d3;
     background-size: cover;
     position: relative;
@@ -28,16 +66,89 @@
     
 }
 
-.column {
-    float: left;
-    width: 30%;
-    padding: 10px;
+#wrapper {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: 550px;
 }
 
-.column h2 {
+.bodylink {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.bodylink:hover {
+    color: grey;
+}
+
+.bio {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 30%;
+    padding: 5px;
+}
+
+.werkervaring {
+    position: absolute;
+    top: 20px;
+    left: 33%;
+    width: 30%;
+    padding: 5px;
+}
+
+.opleiding {
+    position: absolute;
+    top: 20px;
+    left: 66%;
+    width: 30%;
+    padding: 5px;
+}
+
+.vaardigheden {
+    position: absolute;
+    top: 150px;
+    left: 66%;
+    width: 30%;
+    padding: 5px;
+}
+
+.titleline {
     border-bottom: 3px solid black;
 }
 
 .footer {
-    background-color: #f1f1f1;
+    width: 101.1%;
+    height: 250px;
+    background-color: #d3d3d3;
+    background-size: cover;
+    position: relative;
+    margin: -8px;
+}
+
+.contact {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 30%;
+    padding: 5px;
+}
+
+.footerlink {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.footerlink:hover {
+    color: white;
+}
+
+/* projects page */
+.projecttemplate {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 30%;
+    padding: 5px;
 }
